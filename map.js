@@ -3,7 +3,7 @@ require(["esri/config",
   "esri/views/MapView",
   "esri/Graphic",
   "esri/layers/GraphicsLayer",
-  "esri/widgets/Legend"], function (ersiConfig, Map, MapView, Graphic, GraphicsLayer, Legend) {
+  "esri/widgets/Search"], function (ersiConfig, Map, MapView, Graphic, GraphicsLayer, Search) {
   const map = new Map({
     basemap: "hybrid"
   });
@@ -17,7 +17,12 @@ require(["esri/config",
   // create graphics layer to draw graphics onto
   const graphicsLayer = new GraphicsLayer();
   map.add(graphicsLayer);
-  
+
+  const search = new Search({
+    view: view
+  });
+  view.ui.add(search, "top-right"); 
+ 
   //small pop size marker variable 0-25,000
   const marker = {
     type: "simple-marker",
