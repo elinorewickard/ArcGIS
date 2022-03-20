@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  color: white;
 }
 
 html,
@@ -9,4 +10,17 @@ body,
   margin: 0;
   height: 100%;
   width: 100%;
+  background-color: black;
+}
+
+#green {
+  color: green;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#blue {
+  color: blue;
 }

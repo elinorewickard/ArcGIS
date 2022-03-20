@@ -18,13 +18,6 @@ require(["esri/config",
   const graphicsLayer = new GraphicsLayer();
   map.add(graphicsLayer);
   
-  const legend = new Legend({
-    view: view,
-    layerInfos: graphicsLayer,
-    title: "Marker Legend"
-  });
-  view.ui.add(legend, "bottom-left");
-
   //small pop size marker variable 0-25,000
   const marker = {
     type: "simple-marker",
