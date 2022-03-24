@@ -551,7 +551,7 @@ require(["esri/Map",
       latitude: 44.3659
     },
     symbol: marker,
-    attributes: {Name: "Washinton County", Pop: "10,500", LP: "W"},
+    attributes: {Name: "Washington County", Pop: "10,500", LP: "W"},
     popupTemplate: popupTemplate
 
   });
