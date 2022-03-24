@@ -1,30 +1,27 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project was a way to learn about using the ArcGIS library and create a map with unique markers.
 
-{Provide a description the map software that you wrote. Describe how to use your software.  Describe the source of the data that you used.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
+When this software is run, it sould open on a webpage, centered over Idaho, U.S. and show markers over each of the counties. When a marker is clicked, it will show the population and license plate code for the county as is accurate in 2022.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+- ARCGIS library api call
+- VS Code IDE
+- HTML
+- CSS
+- Javascript
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGis API for JavaScript](https://developers.arcgis.com/javascript/latest/)
+* [JavaScript Tutorial](https://www.w3schools.com/js/)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Improve how the counties are created
+* Pull info from a site to stay up-to-date
+

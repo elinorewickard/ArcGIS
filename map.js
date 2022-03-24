@@ -1,9 +1,8 @@
-require(["esri/config",
-  "esri/Map", 
+require(["esri/Map", 
   "esri/views/MapView",
   "esri/Graphic",
   "esri/layers/GraphicsLayer",
-  "esri/widgets/Search"], function (ersiConfig, Map, MapView, Graphic, GraphicsLayer, Search) {
+  "esri/widgets/Search"], function (Map, MapView, Graphic, GraphicsLayer, Search) {
   const map = new Map({
     basemap: "hybrid"
   });
@@ -46,7 +45,7 @@ require(["esri/config",
   const popupTemplate = {
   title: "{Name}",
   content: "<br>Population: {Pop} <br>License Plate: {LP}",
-  }
+  };
 
 //adding markers onto graphicsLayer
   const ada = new Graphic ({
