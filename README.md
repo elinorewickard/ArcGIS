@@ -4,7 +4,7 @@ This project was a way to learn about using the ArcGIS library and create a map 
 
 When this software is run, it sould open on a webpage, centered over Idaho, U.S. and show markers over each of the counties. When a marker is clicked, it will show the population and license plate code for the county as is accurate in 2022.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=_uaUsw94NNc)
 
 # Development Environment
 
