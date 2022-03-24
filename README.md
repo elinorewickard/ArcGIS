@@ -21,7 +21,6 @@ When this software is run, it sould open on a webpage, centered over Idaho, U.S.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Improve how the counties are created
 * Pull info from a site to stay up-to-date
 
